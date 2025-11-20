@@ -10,3 +10,4 @@ def Cid_Verify(cid:str)->str:
     else:
         return "身份证号非法"
 print(Cid_Verify(input("请输入十八位身份证号：")))
+

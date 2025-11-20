@@ -5,5 +5,4 @@ def issue2(a: str, n: int):
     joined_chars = ",".join(b[0:n])
     print(f"前{n}个参数分别是:{joined_chars}")
 
-
 issue2(input("请输入大于3个的参数并用英文逗号连接: "), 3)

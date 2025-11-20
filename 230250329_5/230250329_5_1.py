@@ -6,6 +6,4 @@ def issue1():
             result += char
     
     print("去重后的结果为:", result)
-
-
 issue1()
