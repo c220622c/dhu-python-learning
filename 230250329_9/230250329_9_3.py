@@ -1,4 +1,6 @@
 from random import choice
+
+
 def countSelectedFruit(onefruit, twofruit, *otherfruits):
     fruits = ["香蕉", "草莓", "苹果", "梨子", "西瓜", "芒果", "葡萄"]
     results = {}
@@ -17,6 +19,8 @@ def countSelectedFruit(onefruit, twofruit, *otherfruits):
     for output_fruit in output_list:
         sum = sum + output_list[output_fruit]
     return sum
+
+
 # countSelectedFruit("香蕉","苹果")
 args_list = [
     ["香蕉", "草莓", "苹果"],
