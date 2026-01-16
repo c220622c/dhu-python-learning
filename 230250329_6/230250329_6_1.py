@@ -5,4 +5,4 @@ def similarity(setA:set,setB:set)-> float:
     return len(setA & setB) / max(len(setA),len(setB))
 print(f"A和B的相似度为{format(similarity(choiceA,choiceB),'.2f')}")
 print(f"A和C的相似度为{format(similarity(choiceA,choiceC),'.2f')}")
-print(f"B和C的相似度为{format(similarity(choiceB,choiceC),'.2f')}")
+print(f"B和C的相似度为{format(similarity(choiceB,choiceC),'.2f')}") 
